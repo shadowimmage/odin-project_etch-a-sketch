@@ -1,0 +1,46 @@
+body {
+    background-color: darkgrey;
+}
+
+#page-head {
+    width: 100%;
+}
+
+#page-head > h1 {
+    text-align: center;
+}
+
+#content-main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#sketch-canvas {
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* could also use: flex-flow: row wrap; */
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.sketch-pixel {
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#sketch-controls {
+    width: 900px;
+}
+
+#sketch-controls > fieldset {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1em;
+    float: left;
+}
